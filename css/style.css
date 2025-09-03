@@ -36,8 +36,12 @@ body {
     object-fit: cover;
 }
 
-@media screen and (max-height: 500px){
+@media screen and (max-width: 500px){
     .card {
         flex-direction: row-reverse;
+    }
+
+    .post-image {
+        width: 100%;
     }
 }
